@@ -1,0 +1,31 @@
+irb(main):001:0> fav_num = 2 * 2 * 2 * 2
+=> 16
+irb(main):002:0> if fav_num >= 10
+irb(main):003:1> fav_num = fav_num + 10
+irb(main):004:1> puts "And now your favorite number is 10 more!" 
+irb(main):005:1> end
+And now your favorite number is 10 more!
+=> nil
+irb(main):006:0> puts "THE END"
+THE END
+=> nil
+irb(main):007:0> 
+
+ABOVE is code for using SELECTION STATEMENT
+CODE FOR IF STATEMENTS
+
+
+irb(main):001:0> fav_num = 2
+=> 2
+irb(main):002:0> 10.times do
+irb(main):003:1* fav_num = fav_num + 1
+irb(main):004:1> end
+=> 10
+irb(main):005:0> puts "And now your favorite number is #{fav_num}."
+And now your favorite number is 12.
+=> nil
+irb(main):006:0>
+
+CODE FOR REPITITION STATEMENTS
+USES DO ... END block
+utilizes (Integer).times do #method
